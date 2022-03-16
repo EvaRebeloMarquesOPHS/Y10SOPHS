@@ -1,0 +1,2 @@
+name = str(input("Insert Your Name     "))
+print(len(name))
