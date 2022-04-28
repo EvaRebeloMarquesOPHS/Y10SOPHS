@@ -1,0 +1,10 @@
+names = []
+names.append(input("Enter name 1 "))
+names.append(input("Enter name 2 "))
+names.append(input("Enter name 3 "))
+anothername = str(input("Would you like to add another name? Y/N?  "))
+while anothername == "Y":
+  names.append(input("Enter another name  "))
+  anothername = str(input("Would you like to add another name? Y/N?  "))
+else:
+  print(len(names))
