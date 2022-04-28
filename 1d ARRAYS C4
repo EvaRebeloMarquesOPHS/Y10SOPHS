@@ -1,0 +1,8 @@
+TvPrograms = ["show s" , "show d" , "show a" , "show b"]
+for i in TvPrograms:
+  print(i)
+anothershow = str(input("enter antoher show  "))
+location = int(input("Enter a location between 0 and 4 "))
+location = location-1
+TvPrograms.insert(location,anothershow )
+print(TvPrograms)
