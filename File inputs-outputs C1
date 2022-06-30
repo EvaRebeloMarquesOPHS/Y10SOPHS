@@ -1,0 +1,4 @@
+new = open("numbers.txt", "w")
+chosen = str(input("Enter a number"))
+new.write(chosen)
+new.close()
